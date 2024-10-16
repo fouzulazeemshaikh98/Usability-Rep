@@ -1,0 +1,284 @@
+/*****************************************  
+BREAK_POINT 1291px
+*****************************************/
+@media screen and (max-width: 1291px) {
+
+
+    * {
+        overflow-x: hidden;
+    }
+
+    /* top banner */
+    .top-banner {
+        width: 100vw;
+    }
+
+    /* header section */
+    .main-nav {
+        padding: 2rem 6rem;
+    }
+
+    .nav-toggle .fa-bars-staggered {
+        display: block !important;
+        margin-right: 20px;
+        font-size: 20px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    /* hero section */
+    .hero-section {
+        padding: 2rem 6rem;
+    }
+
+    /* campanies section */
+    .campanies-section {
+        padding: 2rem 6rem;
+    }
+
+    /* feature section */
+    .features-section {
+        padding: 2rem 6rem;
+    }
+
+    /* big feature section */
+    .big-features-section {
+        padding: 2rem 6rem;
+    }
+
+    /* cta .cta-section */
+    .cta-section {
+        padding: 2rem 6rem;
+    }
+
+    .cta-content h3 {
+        font-size: 1rem;
+    }
+
+    .cta-content .content {
+        width: 23%;
+    }
+
+    .cta-content .content h3 {
+        top: 55%;
+    }
+
+    /* footer section */
+    footer {
+        padding: 2rem 6rem;
+    }
+
+    .footer-tabs {
+        gap: 80px;
+    }
+
+}
+
+
+
+/*****************************************  
+BREAK_POINT 1091px
+*****************************************/
+
+@media screen and (max-width: 1091) {
+    * {
+        overflow-x: hidden;
+    }
+
+    /* top banner */
+    .top-banner {
+        width: 100vw;
+    }
+
+    /* header section */
+    .main-nav {
+        padding: 2rem 7rem;
+    }
+
+    .nav-toggle .fa-bars-staggered {
+        display: block !important;
+        margin-right: 20px;
+        font-size: 20px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    /* hero section */
+    .hero-section {
+        padding: 2rem 7rem;
+    }
+
+    /* campanies section */
+    .campanies-section {
+        padding: 2rem 7rem;
+    }
+
+    /* feature section */
+    .features-section {
+        padding: 2rem 7rem;
+    }
+
+    /* big feature section */
+    .big-features-section {
+        padding: 2rem 6rem;
+    }
+
+    /* cta .cta-section */
+    .cta-section {
+        padding: 2rem 7rem;
+    }
+
+    .cta-content h3 {
+        font-size: 1rem;
+    }
+
+    .cta-content .content {
+        width: 23%;
+    }
+
+    .cta-content .content h3 {
+        top: 55%;
+    }
+
+    /* footer section */
+    footer {
+        padding: 2rem 7rem;
+    }
+
+    .footer-container {
+        grid-template-columns: repeat(1fr);
+    }
+
+    .footer-tabs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-tabs {
+        gap: 30px;
+    }
+
+    .footer-tabs h4 {
+        font-size: 1rem !important;
+    }
+
+}
+
+
+
+
+/*****************************************  
+BREAK_POINT 991px
+*****************************************/
+
+@media screen and (max-width: 999px) {
+    * {
+        overflow-x: hidden;
+    }
+
+
+    /* top banner */
+    .top-banner {
+        width: 100vw;
+    }
+
+    /* header section */
+    .main-nav {
+        padding: 2rem 5rem;
+    }
+
+    .nav-toggle .fa-bars-staggered {
+        display: block !important;
+        margin-right: 20px;
+        font-size: 20px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    /* hero section */
+    .hero-section {
+        padding: 2rem 5rem;
+    }
+
+    /* campanies section */
+    .campanies-section {
+        padding: 2rem 5rem;
+    }
+
+    /* feature section */
+    .features-section {
+        padding: 2rem 5rem;
+    }
+
+    .feature-content {
+        gap: 30px;
+    }
+
+    .feature-content .content {
+        width: calc(50% - 20px);
+    }
+
+    /* big feature section */
+    .big-features-section {
+        padding: 2rem 5rem;
+    }
+
+    /* cta .cta-section */
+    .cta-section {
+        padding: 2rem 5rem;
+    }
+
+
+    .cta-content {
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* width: 100%; */
+        gap: 20px;
+    }
+
+    .cta-content h3 {
+        font-size: 1.3rem;
+    }
+
+    .cta-content .content {
+        width: calc(50% - 20px);
+        height: 40vh;
+    }
+
+    .cta-content .content h3 {
+        top: 60%;
+    }
+
+
+    /* faq section */
+    .faq-section {
+        padding: 4rem 0;
+    }
+
+    .faq-content {
+
+        & h2 {
+            font-size: 1.4rem;
+        }
+
+        a {
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    /* footer section */
+    footer {
+        padding: 2rem 5rem;
+    }
+
+    .footer-tabs {
+        gap: 80px;
+    }
+
+}
